@@ -1,0 +1,22 @@
+# CTRH Phase 2: Physical Structure Configuration
+# All blocks behave as if on a physical structure (no physical assembler needed)
+[general]
+	# Enable physical structure physics in all dimensions
+	# When enabled, blocks will break off and form physics entities naturally
+	enableGlobalPhysics = true
+	
+	# Force blocks to form physical structures upon breaking
+	forcePhysicalStructureOnBreak = true
+	
+	# Disable physical assembler (handled by KubeJS ban)
+	enablePhysicalAssembler = false
+
+[physics]
+	# Maximum size of free-floating physics structures
+	maxStructureSize = 2048
+	
+	# Gravity applies to all non-supported blocks
+	enableStructuralIntegrity = true
+	
+	# Blocks without support will form independent physics entities
+	unsupportedBlockBehavior = "PHYSICS_ENTITY"
