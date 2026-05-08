@@ -1,0 +1,38 @@
+# Minecraft server runtime
+world/
+world_*/
+logs/
+crash-reports/
+libraries/
+versions/
+*.log
+
+# Server state (player data + secrets)
+banned-ips.json
+banned-players.json
+ops.json
+whitelist.json
+usercache.json
+server.properties
+eula.txt
+user_jvm_args.txt
+
+# Mod jars (launcher downloads via packwiz)
+mods/*.jar
+
+# Scripts
+run.sh
+run.bat
+start.sh
+
+# IDE/OS
+.DS_Store
+Thumbs.db
+
+# NeoForge
+.mixin.out/
+dynamic-data-pack-cache/
+moonlight-global-datapacks/
+
+# Packwiz cache
+.packwiz-cache/

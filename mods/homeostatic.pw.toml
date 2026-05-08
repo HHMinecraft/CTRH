@@ -1,0 +1,13 @@
+name = "Homeostatic"
+filename = "homeostatic-1.21.1-neoforge-2.11.0.9.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/oDobngty/versions/8wvlkheG/homeostatic-1.21.1-neoforge-2.11.0.9.jar"
+hash-format = "sha512"
+hash = "3f402b8da5e27f2ed98a35df97a4f22f0c15ed703f18bfa956642909b57a44fb4a5637bfbc995ea69d60ec2dbc94102108785a7887e3226439dbc539f6be2273"
+
+[update]
+[update.modrinth]
+mod-id = "oDobngty"
+version = "8wvlkheG"

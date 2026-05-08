@@ -1,0 +1,13 @@
+name = "SilentGearJEI"
+filename = "silentgearjei-1.1.6.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/yiUlraa8/versions/HKxECAj5/silentgearjei-1.1.6.jar"
+hash-format = "sha512"
+hash = "f0c6718b438aeb9b06af94d74077fcb2bf8f835e8bbe3a7f1aa8a414adb002d2453a2124b370d5a15e5fa047e226db1ad6250fe4de4f1405039a2c87abd2e982"
+
+[update]
+[update.modrinth]
+mod-id = "yiUlraa8"
+version = "HKxECAj5"
